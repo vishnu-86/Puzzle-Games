@@ -117,7 +117,7 @@ def sbrain(c1,c2,p1,p2):
     c1,c2,p1,p2=bal(c1,c2,p1,p2)
     for i in l1:
         if i==1:
-            if pbrain(p1+c1,p2,c1,c2)==[]:2
+            if pbrain(p1+c1,p2,c1,c2)==[]:
                 return 1
         if i==2:
             if pbrain(p1+c2,p2,c1,c2)==[]:
